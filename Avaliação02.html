@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário com 3 Meses</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 300px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #007BFF;
+            color: white;
+        }
+        td {
+            background-color: #f4f4f4;
+        }
+        .holiday {
+            background-color: #FFCCCC;
+        }
+        .event {
+            background-color: #CCFFCC;
+        }
+    </style>
+</head>
+<body>
+    <h1>Calendário de 3 Meses</h1>
+
+    <!-- Calendário do Mês Atual -->
+    <table>
+        <caption><strong>Novembro 2024</strong></caption>
+        <tr>
+            <th>Dom</th><th>Seg</th><th>Ter</th><th>Qua</th><th>Qui</th><th>Sex</th><th>Sáb</th>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td></td><td></td><td>1<td</td><td>2</td>
+        </tr>
+        <tr>
+            <td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td>
+        </tr>
+        <tr>
+            <td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td class="holiday">15<br>Proclamação da República</td><td class="event">16<br>Churrasco com Amigos</td>
+        </tr>
+        <tr>
+            <td>17</td><td>18</td><td>19</td><td class="holiday">20<br>Conciência Negra</td><td>21</td><td>22</td><td>23</td>
+        </tr>
+        <tr>
+            <td>24</td><td>25</td><td>26</td><td>27</td><td>28</td><td class="event">29<br>Black friday</td><td class="event">30<br>Passeio de Escuna</td>
+        </tr>
+    </table>
+
+    <!-- Calendário do Próximo Mês -->
+    <table>
+        <caption><strong>Dezembro 2024</strong></caption>
+        <tr>
+            <th>Dom</th><th>Seg</th><th>Ter</th><th>Qua</th><th>Qui</th><th>Sex</th><th>Sáb</th>
+        </tr>
+        <tr>
+            <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td>
+        </tr>
+        <tr>
+            <td>8</td><td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td>
+        </tr>
+        <tr>
+            <td>15</td><td>16</td><td>17</td><td>18</td><td>19</td><td>20</td><td>21</td>
+        </tr>
+        <tr>
+            <td>22</td><td>23</td><td class="event">24<br>Aniversário Irmã</td><td class="holiday">25<br>Natal</td><td>26</td><td>27</td><td>28</td>
+        </tr>
+        <tr>
+            <td>29</td><td>30</td><td>31</td><td></td><td></td><td></td><td></td>
+        </tr>
+    </table>
+
+    <!-- Calendário do Mês Seguinte -->
+    <table>
+        <caption><strong>Janeiro 2025</strong></caption>
+        <tr>
+            <th>Dom</th><th>Seg</th><th>Ter</th><th>Qua</th><th>Qui</th><th>Sex</th><th>Sáb</th>
+        </tr>
+        <tr>
+            <td></td><td></td><td></td><td class="holiday">1<br>Ano Novo</td><td>2</td><td>3</td><td>4</td>
+        </tr>
+        <tr>
+            <td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td>
+        </tr>
+        <tr>
+            <td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td class="event">17<br>Mini Férias</td><td class="event">18<br>Mini Férias</td>
+        </tr>
+        <tr>
+            <td class="event">19<br>Mini Férias</td><td class="event">20<br>Mini Férias</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td>
+        </tr>
+        <tr>
+            <td>26</td><td>27</td><td>28</td><td>29</td><td>30</td><td>31</td><td></td>
+        </tr>
+    </table>
+</body>
+</html>
